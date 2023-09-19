@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var CView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("I got pressed")
+    }
+    
     
 
 }
